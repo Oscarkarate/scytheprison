@@ -204,6 +204,31 @@ main {
   margin-top: 1.25rem;
 }
 
+.rules-section {
+  margin-top: 1.5rem;
+}
+
+.rules-card {
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: 18px;
+  padding: 1.25rem;
+  margin-top: 1rem;
+  box-shadow: 0 20px 45px rgba(2, 8, 23, 0.3);
+}
+
+.rules-card h3 {
+  color: var(--accent-2);
+  margin-bottom: 0.75rem;
+}
+
+.rules-card ul {
+  padding-left: 1.2rem;
+  display: grid;
+  gap: 0.6rem;
+  color: var(--muted);
+}
+
 .section-title {
   margin-bottom: 1rem;
 }
