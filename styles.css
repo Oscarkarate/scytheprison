@@ -292,6 +292,19 @@ main {
   font-size: 0.95rem;
 }
 
+.staff-link {
+  display: inline-block;
+  margin-top: 0.6rem;
+  color: #c4b5fd;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.staff-link:hover {
+  color: white;
+  text-decoration: underline;
+}
+
 .staff-card.owner .staff-badge {
   background: linear-gradient(135deg, #f59e0b, #ef4444);
   color: white;
@@ -304,6 +317,11 @@ main {
 
 .staff-card.admin .staff-badge {
   background: linear-gradient(135deg, #8b5cf6, #d946ef);
+  color: white;
+}
+
+.staff-card.developer .staff-badge {
+  background: linear-gradient(135deg, #8b5cf6, #a855f7);
   color: white;
 }
 
@@ -423,6 +441,10 @@ footer {
 
 .legend-dot.builder {
   background: linear-gradient(135deg, #06b6d4, #2563eb);
+}
+
+.legend-dot.developer {
+  background: linear-gradient(135deg, #8b5cf6, #a855f7);
 }
 
 @media (max-width: 700px) {
